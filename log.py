@@ -6,9 +6,9 @@ import numpy as np
 if 'library_data' not in st.session_state:
     st.session_state.library_data = pd.DataFrame({
         'Book ID': [1, 2, 3, 4, 5],
-        'Title': ['Book A', 'Book B', 'Book C', 'Book D', 'Book E'],
-        'Author': ['Author A', 'Author B', 'Author C', 'Author D', 'Author E'],
-        'Status': ['Available', 'Checked Out', 'Available', 'Checked Out', 'Available']
+        'Title': ['The Catcher in the Rye', 'To Kill a Mockingbird', 'Pride and Prejudice', 'The Great Gatsby', 'The Hunger Games'],
+        'Author': ['J.D. Salinger', 'Harper Lee', 'Jane Austen', 'F. Scott Fitzgerald', 'Suzanne Collins'],
+        'Status': ['Available', 'Available', 'Available', 'Availablet', 'Available']
     })
 
 # Function to check out and return books
