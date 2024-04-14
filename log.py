@@ -3,8 +3,8 @@ from deep_translator import GoogleTranslator
 
 # Placeholder for an actual authentication system
 # WARNING: This is for demonstration purposes only!
-USER_NAME = "admin"
-PASSWORD = "password"
+USER_NAME = "7aaffssaa"
+PASSWORD = "19371937"
 
 # Check if the user is logged in
 if 'logged_in' not in st.session_state:
