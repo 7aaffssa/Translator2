@@ -8,7 +8,7 @@ if 'library_data' not in st.session_state:
         'Book ID': [1, 2, 3, 4, 5],
         'Title': ['The Catcher in the Rye', 'To Kill a Mockingbird', 'Pride and Prejudice', 'The Great Gatsby', 'The Hunger Games'],
         'Author': ['J.D. Salinger', 'Harper Lee', 'Jane Austen', 'F. Scott Fitzgerald', 'Suzanne Collins'],
-        'Status': ['Available', 'Available', 'Available', 'Availablet', 'Available']
+        'Status': ['Available', 'Available', 'Available', 'Available', 'Available']
     })
 
 # Function to check out and return books
